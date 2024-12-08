@@ -1,0 +1,1 @@
+This repository demonstrates a common VHDL coding error: an integer counter without proper overflow handling. The original code (`counter.vhdl`) increments a counter without checking for the upper bound, potentially leading to unexpected behavior or simulation errors.  The corrected version (`counter_fixed.vhdl`) adds a check to prevent overflow.
